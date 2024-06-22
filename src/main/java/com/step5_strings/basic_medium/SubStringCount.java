@@ -35,7 +35,7 @@ public class SubStringCount {
 			    StringBuffer strBuff = new StringBuffer(str);
 			   
 
-				if (Arrays.stream(str.split("")).distinct().toList().size() == K) {
+				if (Arrays.stream(str.split("	")).distinct().toList().size() == K) {
 
 					if (str.length() >= K) {
 						list.add(str);
